@@ -23,6 +23,7 @@ case $n in
     3)rm *.aux *.bbl *blg *.log *.*~;
       pdflatex "$1";
       bibtex "$1";
+
       pdflatex "$1";
       pdflatex "$1";
       evince "$1".pdf &;;
