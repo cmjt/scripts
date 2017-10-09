@@ -2,4 +2,4 @@
 
 # script to remove crash fles ubuntu
 
-sudo rm/var/crash/*
+sudo rm /var/crash/*
