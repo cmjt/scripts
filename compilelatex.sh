@@ -26,7 +26,7 @@ case $n in
       pdflatex "$1";
       pdflatex "$1";
       evince "$1".pdf &;;
-    4)rm *.aux *.bbl *blg *.log *.*~ *.tex;
+    4)rm *.aux *.bbl *blg *.log *.*~ "$1".tex;
       R -e "library(knitr); knit('"$1".Rnw')";
       pdflatex "$1";
       bibtex "$1";
