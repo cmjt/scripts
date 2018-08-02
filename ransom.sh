@@ -27,7 +27,7 @@ X% Use the | symbol to generate new lines.
 X/note (We have Vendramino De Luca.|
 XIf you want to see him
 Xalive and well you must hand over the Qatari sapphires.|
-XDo not attempt to solve this puzzle you will fail.  
+XDo not attempt to solve this PUZZLE: you will fail.  
 XThe handover will be at midnight on Isola di San Michele.
 XDo not notify the police or any authorities; he will pay the price.
 X) def
