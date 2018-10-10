@@ -11,7 +11,7 @@ if(exists("mean.val") & diff(c(mean.val,139.3105462)) > 0.001){
 if(exists("nn.quantile")){print(":-D You have successfully created the object nn.quantile")}
 if(!exists("nn.quantile")){print(":-( I expected to see the object nn.quantile")}
 if(exists("nn.quantile") & diff(c(nn.quantile,909)) < 0.001){
-  print(":-D You have successfully calculated the the 0.99 quantile of the value column as 139.3105")
+  print(":-D You have successfully calculated the the 0.99 quantile of the value column as 909")
 }
 if(exists("nn.quantile") & diff(c(nn.quantile,909)) > 0.001){
   print(":-( I expected the mean of the value column to be 139.3105")
