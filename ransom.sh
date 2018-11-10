@@ -24,12 +24,7 @@ X%
 X
 X% Put here the ransom note you want
 X% Use the | symbol to generate new lines.
-X/note (We have Vendramino De Luca.|
-XIf you want to see him
-Xalive and well you must hand over the Qatari sapphires.|
-XDo not attempt to solve this PUZZLE: you will fail.  
-XThe handover will be at midnight on Isola di San Michele.
-XDo not notify the police or any authorities; he will pay the price.
+X/note (Addressed mail only
 X) def
 X
 X% Left margin position
@@ -175,10 +170,6 @@ Xleft 700 moveto
 X.5 setlinewidth
 Xnote ransom showpage
 SHAR_EOF
-if test 2867 -ne "`wc -c < 'ransom.ps'`"
-then
-	echo shar: error transmitting "'ransom.ps'" '(should have been 2867 characters)'
-fi
 fi # end of overwriting check
 #	End of shell archive
 exit 0
