@@ -1,0 +1,346 @@
+%----------------------------------------------------------------------------
+% Marsden Fund
+% Note to users: This template has been constructed from scratch to provide
+% a LaTeX document that may assist applicants.  Please feel free to report 
+% faults or to suggest improvements to:
+% mark.stagg@royalsociety.org.nz
+%
+% Proposal Document: CV (All)
+% 2017-12-18
+%
+%----------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------
+\documentclass[12pt, a4paper]{article}
+\setlength{\textwidth}{17 cm} \setlength{\oddsidemargin}{-0.5 cm}
+\topskip = 0.75 cm \setlength{\textheight}{26.8 cm}
+\setlength{\topmargin}{-2.1 cm} \pagestyle{empty}
+
+%%%%%%%%%% Start TeXmacs macros
+\newcommand{\tmtextbf}[1]{{\bfseries{#1}}}
+%%%%%%%%%% End TeXmacs macros
+\usepackage{mathabx}
+\usepackage{longtable}
+\usepackage{colortbl}
+\usepackage[subsectionbib]{bibunits}
+%----------------------------------------------------------------------------
+% Bibunits may be useful for citing your papers and publications.  Please read
+% the release notes % available at:
+% http://www.ctex.org/documents/packages/bibref/bibunits.pdf 
+% and download the appropriate package.  For each bibunit, in sequence, there is
+% a corresponding file bu(i).aux that needs to be compiled through BibTEX.  Suppose
+% your document has (i) different bibunits, you must invoke BibTEX on 
+% bu1, bu2, . . . , bu(i).  
+% Please see the two examples in patents and other sections in Part 2a.
+%----------------------------------------------------------------------------
+
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+\renewcommand{\refname}{}
+
+\begin{document}
+\defaultbibliography{your_bib}
+\defaultbibliographystyle{plain}
+
+{\noindent} {\fontfamily{cmr}\tmtextbf{5. \hspace{10mm}CURRICULUM VITAE AND PUBLICATIONS}}\\
+%----------------------------------------------------------------------------
+% Section 1.  Once you have completed your CV, delete the text between the two dashed lines below.
+%----------------------------------------------------------------------------
+%% {\fontfamily{cmr}{\footnotesize{\textit{Please attach a curriculum vitae
+%% for \tmtextbf{each of the named research personnel} (other than
+%% technical assistants or students) who are relevant to this
+%% application. Please use the template below and remove these
+%% instructions. Rows and columns may be expanded or reduced,
+%% but a CV must be no more than two pages for part 1 and no more
+%% than three pages for part 2.  Use Arial 12 point font.  Do not
+%% alter page margins.  Instructions in italics should be deleted
+%% before you submit your CV.}}}}
+%----------------------------------------------------------------------------
+
+\def\salutation			{Dr}						% Professor/Associate Professor/Dr etc
+\def\firstName			{Charlotte}						% First name
+\def\secondName		{Moragh}						% Middle name(s)
+\def\lastName			{Jones-Todd}						% Last name
+\def\presentPosition		{Lecturer}						% Present position held
+\def\organisation		{University of Auckland}					% Organisation/Employer
+\def\addOne			{Department of Statistics}						% Address line 1 (Street or Road)
+\def\addTwo			{University of Auckland}						% Address line 2 (Suburb)
+\def\addThree			{Auckland }						% Address line 3 (City/town)
+\def\postCode			{1142}						% New Zealand postcode
+\def\telWork			{+64  (0)9 923 7688}					% Work telephone
+\def\telMobile			{}					% Mobile telephone
+\def\email				{c.jonestodd@auckland.ac.nz}				% email address
+\def\webpage		{https://cmjt.github.io/}		% personal website (if applicable)
+
+% PLEASE complete above and progress to next set of dashed lines
+
+\noindent {\bf PART 1}
+\vspace{-3 mm}
+\begin{center}\begin{tabular}{llllllllll}
+\hline \multicolumn{9}{|>{\columncolor[gray]{.8}}l|}{{\bf 1a.   Personal details}}    \\
+\hline \multicolumn{1}{|>{\columncolor[gray]{.8}}p{2.5 cm}}{{\bf Full name}} &  \multicolumn{2}{|p{1.5 cm}}{{\scriptsize \it Title}} &  \multicolumn{1}{|p{3 cm}}{{\scriptsize \it First name}} &  \multicolumn{3}{|p{4 cm}}{{\scriptsize \it Second name(s)}} &  \multicolumn{2}{|p{3.5 cm}|}{{\scriptsize \it Family name}}  \\
+ %\cline{1-1}
+% Enter your title, first name, middle names and family name.
+ \multicolumn{1}{|>{\columncolor[gray]{.8}[.95 \tabcolsep]}l}{} &  \multicolumn{2}{|p{1.5 cm}}{\scriptsize{\salutation}} &  \multicolumn{1}{|p{3 cm}}{\firstName} &  \multicolumn{3}{|p{4 cm}}{\secondName} &  \multicolumn{2}{|p{3.5 cm}|}{\lastName}  \\
+\hline
+% Enter your present position.
+\multicolumn{3}{|>{\columncolor[gray]{.8}}l}{{\bf Present position} \hfill} &  \multicolumn{6}{|p{10.5 cm}|}{\presentPosition}    \\
+\hline
+% Enter your organisation.
+\multicolumn{3}{|>{\columncolor[gray]{.8}}p{4.5 cm}}{{\bf Organisation/Employer}} &  \multicolumn{6}{|p{10.5 cm}|}{\organisation}    \\
+\hline
+% Enter your contact address on the following three lines, and the postcode.
+\multicolumn{2}{|>{\columncolor[gray]{.8}}l}{{\bf Contact address}} &  \multicolumn{7}{|p{11.3 cm}|}{\addOne} \\
+\cline{3-9}
+\multicolumn{2}{|>{\columncolor[gray]{.8}[.95 \tabcolsep]}l}{} &  \multicolumn{7}{|p{11.3 cm}|}{\addTwo} \\
+\cline{3-9}
+\multicolumn{2}{|>{\columncolor[gray]{.8}[.95 \tabcolsep]}l}{} &  \multicolumn{4}{|p{7.8 cm}}{\addThree} &  \multicolumn{2}{|>{\columncolor[gray]{.8}}l}{Post code} &  \multicolumn{1}{|l|}{\postCode}\\
+\hline
+% Enter your telephone number and mobile number.
+\multicolumn{2}{|>{\columncolor[gray]{.8}}l}{{\bf Work telephone}} &  \multicolumn{3}{|p{5.3 cm}}{\telWork} &  \multicolumn{1}{|>{\columncolor[gray]{.8}}l}{Mobile} &  \multicolumn{3}{|l|}{\telMobile}   \\
+\hline
+% Enter your email address.
+\multicolumn{2}{|>{\columncolor[gray]{.8}}l}{{\bf Email}} &  \multicolumn{7}{|l|}{\email} \\
+\hline
+% Enter your website.
+\multicolumn{2}{|>{\columncolor[gray]{.8}}p{3.4 cm}}{{\bf Personal website (if applicable)}} &  \multicolumn{7}{|p{11.3 cm}|}{\webpage}   \\
+\hline
+\end{tabular}\end{center}
+
+\vspace{-0.3 cm}
+
+\begin{center}\begin{tabular}{|l|}
+\hline \multicolumn{1}{|>{\columncolor[gray]{.8}}p{16.3 cm}|}{{\bf 1b.   Academic qualifications}}   \\
+\hline
+\end{tabular}\end{center}
+\vspace{-0.3 cm} {\it {
+
+
+%----------------------------------------------------------------------------
+% Delete the text between the two dashed lines below and list your qualifications, in reverse date order, as follows:
+% Year conferred, qualification, discipline, university/institute.
+%----------------------------------------------------------------------------
+    \noindent
+    2017, PhD, Statistics, University of St Andrews\\
+    2013, MSc, Statistics, University of St Andrews\\
+    2012, BSc Hons, Mathematics, Aberystwyth University
+%----------------------------------------------------------------------------
+}\par}
+
+\begin{center}\begin{tabular}{|l|}
+\hline \multicolumn{1}{|>{\columncolor[gray]{.8}}p{16.3 cm}|}{{\bf 1c.   Professional positions held}}   \\
+\hline
+\end{tabular}\end{center}
+\vspace{-0.3 cm} {\it {
+%----------------------------------------------------------------------------
+% Delete the text between the two dashed lines below and list your positions held, as follows: Year-year, job title, organisation.
+%----------------------------------------------------------------------------
+    \noindent
+    2019--present, Lecturer in Statistics, University of Auckland\\
+    2018--2019, Statistician, National Institute of Water and Atmospheric Research\\
+    2017--2018, Statistical Consultant, Sea Mammal Research Unit, University of St Andrews\\
+    2014--2016, Statistics Tutor, Centre for Academic, Professional and Organisational Development, University of St Andrews\\
+    2007--2012, Veterinary Assistant, John Downes Veterinary Surgery
+%----------------------------------------------------------------------------
+}\par}
+
+\begin{center}\begin{tabular}{|l|}
+\hline \multicolumn{1}{|>{\columncolor[gray]{.8}}p{16.3 cm}|}{{\bf 1d.   Present research/professional speciality}}   \\
+\hline
+\end{tabular}\end{center}
+\vspace{-0.3 cm} {\it {
+
+
+%----------------------------------------------------------------------------
+% Delete the text between the two dashed lines below and describe your present research/professional speciality.
+%----------------------------------------------------------------------------
+\noindent My research focuses on the development of novel point process models, in particular, the use of stochastic structures to account for unexplained, but relevant, spatial an/or temporal variation in real world applications. To date I have developed and applied such models in the fields of ecology, terrorism studies, and cancer research.
+%----------------------------------------------------------------------------
+}\par}
+
+\begin{center}\begin{tabular}{|l|l|}
+\hline \multicolumn{1}{|>{\columncolor[gray]{.8}}p{9.8 cm}}{{\bf 1e.   Total years research experience:}}   & \multicolumn{1}{|p{6.1 cm}|}{\hspace{4 cm}  \normalfont{
+% Enter your years of research experience.
+5 years}}   \\
+\hline
+\end{tabular}\end{center}
+\vspace{-0.3 cm} {\it {
+
+
+%----------------------------------------------------------------------------
+% Delete the text between the two dashed lines below and list any significant career interrruptions.
+%----------------------------------------------------------------------------
+\noindent
+%----------------------------------------------------------------------------
+}\par}
+
+\begin{center}\begin{tabular}{|l|}
+\hline \multicolumn{1}{|>{\columncolor[gray]{.8}}p{16.3 cm}|}{{\bf 1f.   Professional distinctions and memberships (including honours, prizes, scholarships, boards or governance roles, etc)}}   \\
+\hline
+\end{tabular}\end{center}
+\vspace{-0.3 cm} {\it {
+
+
+%----------------------------------------------------------------------------
+% Delete the text between the two dashed lines below and describe your professional distinctions and memberships.
+%----------------------------------------------------------------------------
+    \noindent
+    2017, Invited speaker, Royal Statistical Society Conference, Glasgow, UK\\
+    2017, Statistical Excellence Award for Early-Career Writing finalist\\
+    2015, Invited speaker, Statistische Woche young statisticians session, Hamburg, Germany \\
+    2017, Invited speaker, Royal Statistical Society Conference, Exeter, UK\\
+    2015, Royal Statistical Society 2015 Challenge finalist\\
+    2012, Pennington Prize for Pure Mathematics\\
+%----------------------------------------------------------------------------
+}\par}
+
+\begin{center}\begin{tabular}{|l|l|l|l|l|l|}
+\hline \multicolumn{1}{|>{\columncolor[gray]{.8}}p{5 cm}|}{{\bf 1g.   Total number of} {\it peer reviewed} {\bf publications and patents}} &  \multicolumn{1}{>{\columncolor[gray]{.8}}p{1.5 cm}|}{\footnotesize Journal articles} &  \multicolumn{1}{>{\columncolor[gray]{.8}}p{1.5 cm}|}{\footnotesize Books}&  \multicolumn{1}{>{\columncolor[gray]{.8}}p{1.8 cm}|}{\footnotesize Book chapters, books edited} &  \multicolumn{1}{|>{\columncolor[gray]{.8}}p{2.5 cm}|}{\footnotesize Conference proceedings} &  \multicolumn{1}{>{\columncolor[gray]{.8}}p{1.6 cm}|}{\footnotesize Patents}  \\
+\cline{2-6} \multicolumn{1}{|>{\columncolor[gray]{.8}}p{5 cm}|}{} &
+\multicolumn{1}{p{1.5 cm}|}{
+% Enter the total number of peer reviewed journal articles.
+6
+} &
+\multicolumn{1}{p{1.5 cm}|}{
+% Enter the total number of books.
+0
+} &  \multicolumn{1}{p{1.8 cm}|}{
+% Enter the total number of peer reviewed book chapters and books edited.
+0
+} &  \multicolumn{1}{p{2.5 cm}|}{
+% Enter the total number of peer reviewed conference proceedings.
+1
+} &  \multicolumn{1}{p{1.6 cm}|}{
+% Enter the total number of patents.
+0
+}  \\
+\hline
+\end{tabular}\end{center}
+
+%----------------------------------------------------------------------------
+\pagebreak
+%----------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------
+% Once you have completed your CV, delete the text between the two dashed lines below.
+%----------------------------------------------------------------------------
+%% \noindent {\textit{Part 2 should include information pertinent to your
+%% research proposal.  You should complete {\bf all} sections if applying
+%% for MBIE funding.  Complete {\bf only} section 2a if applying for
+%% a Marsden Fund grant or an HRC grant.  Delete sections not
+%% relevant to the fund you are applying to. The following sections
+%% should not total more than three pages.}\par}
+%----------------------------------------------------------------------------
+\noindent {\bf PART 2}
+\vspace{-0.6 cm}
+\begin{center}\begin{longtable}{|p{16.3 cm}|}
+\hline \cellcolor[gray]{0.8}{\bf 2a.  Research publications and dissemination}  \\
+{\bf $\Asterisk$ Publications in journals ranked as A${}^\ast\,/\,$A (top 5$\%\,/\,$20$\%$) by the Australian Research Council}.\\
+%----------------------------------------------------------------------------
+% Once you have completed publications list, delete the text between the two dashed lines below.
+%----------------------------------------------------------------------------
+%% {\it Expand/reduce the following table as needed, listing publications relevant to your proposal.  List in reverse date order.  {\bf Bold} your name in lists of authors. Also {\bf bold} the year of publication if it was published in the last 5 years.} \\
+%----------------------------------------------------------------------------
+\hline \cellcolor[gray]{0.8}{Peer reviewed journal articles}  \\
+% List your journal articles in reverse date order with your name in bold. Add or delete lines as necessary. Please note that you can add items using the "Itemise" function, as in this section, "Peer reviewed journal articles". Alternatively, you can add items using copy and paste, as in the sections, "Peer reviewed books, book chapters, books edited" and "Refereed conference proceedings". Or, you can add items using BibTEX, as in "Patents" and "Other forms of dissemination". Choose the method that suits you and apply to all the sections of Part 2a.
+\hline
+\begin{itemize}
+\item[] Semadeni-Davies, A., {\bf Jones-Todd, C. M.},  Elliott, S., Shankar, U., Tanner, C., Srinivasan, MS., \& Muirhead , R. {\bf (In press).} CLUES model calibration and its implications for estimating contaminant attenuation. Agricultural Water Management.
+\item[$\Asterisk$] Soranio-Redondo, A., {\bf Jones-Todd, C. M.}, Bearhop, S., Hilton, G. M., Lock, L., Stanbury, A., Votier, S. C., \& Illian, J. B. {\bf (2019).} Understanding species distribution in dynamic populations: a new approach using spatio-temporal point process models. Ecography, 42 (6), 1092--1102.
+\item[$\Asterisk$] {\bf Jones-Todd, C. M.}, Caie, P., Illian, J. B., Stevenson, B. C., Savage, A., Harrison D, J., \& Bown, J. {\bf (2019).} Identifying prognostic structural features in tissue sections of colon cancer patients using point pattern analysis.
+  Statistics in Medicine, 38 (8), 1421--1441.
+\item[$\Asterisk$] Python, A., Illian, J. B., {\bf Jones-Todd, C. M.}, \& Bl\'angiardo, M. A Bayesian approach to modelling subnational
+  spatial dynamics of worldwide non-state terrorism, 2010–2016. {\bf (2019).} Journal of the Royal Statistical Society,
+  Series A (Statistics in Society), 182 (1), 323--344.
+\item[] Kool, B., Buller, S., Kuriyan, R., {\bf Jones-Todd, C. M.}, Newcombe, D., \& Jones, P. {\bf (2018).} Alcohol and injury among
+  attendees at a busy inner city New Zealand emergency department. Injury, 49 (4), 798--805.
+\item[$\Asterisk$] {\bf Jones-Todd, C. M.}, Swallow, B., Illian, J. B., \& Toms, M. {\bf (2018).} A spatio-temporal multi-species model of a
+  semi-continuous response. Journal of the Royal Statistical Society, Series C (Applied Statistics), 67 (3), 705--722.
+\end{itemize} \\
+
+%% \hline \cellcolor[gray]{0.8}{Peer reviewed books}  \\
+% List your books in reverse date order with your name in bold. Add or delete lines as necessary.
+\hline 
+% e.g. books \\
+
+%% \hline \cellcolor[gray]{0.8}{Peer reviewed book chapters, books edited}  \\
+% List your book chapters and books edited in reverse date order with your name in bold. Add or delete lines as necessary.
+\hline 
+% e.g. book chapters \\
+
+\hline \cellcolor[gray]{0.8}{Refereed conference proceedings}  \\
+% List your refereed conference proceedings in reverse date order with your name in bold. Add or delete lines as necessary.
+\hline 
+% e.g. proceedings \\
+\begin{itemize}
+\item Python, A., Illian, J. B., {\bf Jones-Todd, C. M.}, \& Bl\'angiardo, M. {\bf(2016)} Explaining the lethality of Boko Haram’s
+terrorist attacks in Nigeria, 2009--2014: A hierarchical Bayesian approach. Bayesian Statistics in Action: BAYSM
+2016, 231--239.
+\end{itemize}\\
+%% \hline \cellcolor[gray]{0.8}{Patents}  \\
+% List your patents in reverse date order with your name in bold. Add or delete lines as necessary.
+\hline 
+% e.g. patents \\
+\newpage
+\hline \cellcolor[gray]{0.8}{Other forms of dissemination (reports for clients, technical reports, popular press, etc)}  \\
+\hline
+\begin{itemize}
+  \item Python, A., Illian, J. B., {\bf Jones-Todd, C. M.}, \& Bl\'angiardo, M. Statistics and Terrorism: Insights on terrorism lethality from Bayesian modeling. Wiley StatsRef-Statistics Reference Online.  {\bf In press}
+ \item Dudley, B., \& {\bf Jones-Todd, C. M.} New Zealand coastal water quality assessment update. Ministry for the
+   Environment. {\bf 2018}.
+   \item Graham, E., {\bf Jones-Todd, C. M.}, Wadhwa, S., \& Storey, R. Analysis of stream responses to riparian management
+     on the Taranaki ring plain. Taranaki Regional Council. {\bf 2018}.
+   \item {\bf Jones-Todd, C. M}. A time to kill: Great British serial killers. Significance Online. {\bf 2017}.
+     \item {\bf Jones-Todd, C. M}. Modelling complex dependencies inherent in spatial and spatio-temporal point pattern data. PhD Thesis, University of St Andrews. {\bf 2017}.
+ \end{itemize}\\
+%----------------------------------------------------------------------------
+
+\hline
+\end{longtable} \end{center}
+
+%----------------------------------------------------------------------------
+
+%% \begin{center}\begin{longtable}{|p{16.3 cm}|}
+%% \hline \cellcolor[gray]{0.8}{\bf 2b. Previous research work}  \\
+%%     \hline
+%%    \textbf{Research title:} Modelling complex dependencies inherent in spatial and spatio-temporal point pattern data. PhD Thesis, University of St Andrews. \\
+%%    \textbf{Principal outcome:} Publications, software. \\
+%%     \textbf{Principal end-user and contact:} University of St Andrews, Scotland, UK.\\
+%%     \hline
+%% \end{longtable} \end{center}
+
+%% \begin{center}\begin{longtable}{|p{16.3 cm}|}
+%% \hline \cellcolor[gray]{0.8}{\bf 2c. Describe the commercial, social or environmental impact of your previous
+%%   research work}  \\
+%% \begin{itemize}
+%%   \item As a statistician at NIWA I was involved with and developed statistical methods for projects for clients such as Fonterra, The University of Waikato, and the Auckland District Health Board.
+%%   \item Software I developed is freely available online https://cmjt.shinyapps.io/ascr\_shiny/. This graphical user interface is mainly used by researchers in the The IUCN Species Survival Commission primate specialist group. This software is still under development so that features requested by users and extensions to the methodology can be incorporated.
+%%   \end{itemize}\\
+%%  \hline
+%% \end{longtable} \end{center}
+
+%% \newpage
+
+%% \begin{center}\begin{longtable}{|p{16.3 cm}|}
+    
+%%     \hline \cellcolor[gray]{0.8}{\bf 2d. Demonstration of relationships with end-users}  \\
+    
+%%     I have developed and maintain two applications that allow end-users to fit complex statistical models without requiring any programming skills.
+    
+%% \vspace{0.5cm}
+    
+%%     \begin{enumerate}
+%%     \item A graphical user interface facilitating the carrying out of Monte Carlo based quantitative microbial risk assessment. This is principally used by Graham McBride, Principal Scientist, NIWA (Graham.McBride@niwa.co.nz).
+%%    \item A graphical user interface for the fitting of acoustic spatial capture-recapture models to obtain estimates of animal density from acoustic surveys (based on the use of the R package https://github.com/b-steve/ascr). This is publicly available here https://cmjt.shinyapps.io/ascr\_shiny/.
+%%     \end{enumerate}
+
+%%     \vspace{0.5cm}
+    
+%%     In addition I have an open-source software package that implements the fitting and simulating of log-Gaussian Cox point processes using the stochastic partial differential equation approach (https://github.com/cmjt/lgcpSPDE). This package facilitates the fitting of spatio-temporal models developed in many of the publications in Section 2a above.\\
+
+    
+%%      \hline
+%% \end{longtable} \end{center}
+
+\end{document}
